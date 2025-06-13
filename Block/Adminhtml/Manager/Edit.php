@@ -1,11 +1,7 @@
 <?php
 
-namespace Magenest\CallToOrder\Block\Adminhtml\Manager;
+namespace Magenman\CallToOrder\Block\Adminhtml\Manager;
 
-/**
- * Class Edit
- * @package Magenest\CallToOrder\Block\Adminhtml\Manager
- */
 class Edit extends \Magento\Backend\Block\Widget\Form\Container
 {
     /**
@@ -39,7 +35,7 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
     protected function _construct()
     {
         $this->_objectId = 'id';
-        $this->_blockGroup = 'Magenest_CallToOrder';
+        $this->_blockGroup = 'Magenman_CallToOrder';
         $this->_controller = 'adminhtml_manager';
 
         parent::_construct();
